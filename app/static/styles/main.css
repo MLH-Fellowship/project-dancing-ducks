@@ -171,12 +171,6 @@ body {
     padding: 30px 0px 30px 30px;
 }
 
-
-.hobbies {
-    width: 100%;
-    padding: 30px 0px 30px 30px;
-}
-
 .box {
     background-color: white;
     border-radius: 8px;
@@ -193,22 +187,22 @@ body {
     background-color: #FECD6A;
 }
 
-.hobbie {
+  .hobbie {
     width: 100%;
     padding: 30px 0px 30px 30px;
-}
+  }
 
-h8 {
+  h8 {
     font-family: 'JetBrains Mono', monospace;
     color: white;
     font-size: 50px;
- }
+  }
 
-.title {
+  .title {
     width: 100%;
     height: fit-content;
     padding-bottom: 50px;
-}
+  }
 
 .profilepic {
     border-radius: 25px;
@@ -244,9 +238,9 @@ h8 {
     margin-right: 5%;
     margin-top: 20px;
     margin-bottom: 20px;
- }
+  }
   
-.overlay {
+  .overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -259,13 +253,14 @@ h8 {
     background-color: #FECD6A;
     margin-top: 20px;
     border-radius: 25px;
-}
+    
+  }
   
-.container:hover .overlay {
+  .container:hover .overlay {
     opacity: 1;
-}
+  }
   
-.text {
+  .text {
     font-family: 'JetBrains Mono', monospace;
     color: white;
     font-size: 50px;
@@ -276,7 +271,7 @@ h8 {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
+  }
 
 .teamtext {
     padding-bottom: 50px;

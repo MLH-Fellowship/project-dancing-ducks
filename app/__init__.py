@@ -71,12 +71,12 @@ fellows = {
         "hobbies": [
             {
                 "name": "Art",
-                "image": "/static/img/artwork.png",
+                "image": "",
                 "desc": "I've been drawing in an anime/manga style since I was very young. I like drawing cute designs and designs that I find beautiful. While I often find myself unable to think of what to draw, I become super driven when I'm drawing for other people. Nothing makes me happier than creating for others!"
             },
             {
                 "name": "Gaming",
-                "image": "/static/img/genshin.jpg",
+                "image": "",
                 "desc": "I'm a casual gamer. I only own a Macbook so I can't play a lot of games, so I just dabble in some mobile games! I mainly play an RPG called Genshin Impact, but I also play some of a tower defense game called Arknights. As for computer games, I'm currently playing the indie platformer Celeste! I've also casually played Minecraft, Terraria, and Portal.",
             },
             {

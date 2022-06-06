@@ -1,37 +1,9 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block body %}
-<div class="hobbies">
-    <h6> OUR HOBBIES </h6>
-    
-    {% for fellow in fellows %}
-        <h1>{{ fellows[fellow]['first'] }}</h1>
-        <!--use namespace to change variable within loop; with jinja, assignments within loops do not outlive its scope-->
-        {% set ns = namespace(alternate = false) %}
-        {% for hobby in fellows[fellow]['hobbies'] %}
-            <table>
-                <tr>
-                    {% if ns.alternate %}
-                        <td>
-                            <img src="{{ hobby['image'] }}">
-                        </td>
-                        <td>
-                            <h2>{{ hobby['name'] }}</h2>
-                            {{ hobby['desc'] }}
-                        </td>
-                    {% else %}
-                        <td>
-                            <h2>{{ hobby['name'] }}</h2>
-                            {{ hobby['desc'] }}
-                        </td>
-                        <td>
-                            <img src="{{ hobby['image'] }}">
-                        </td>
-                    {% endif %}
-                </tr>
-            </table>
-            {% set ns.alternate = not ns.alternate %}
-        {% endfor %}
-    {% endfor %}
+
+<div class="hobbie">
+    <h6>OUR HOBBIES</h6>
+
 </div>
 {% endblock %}
